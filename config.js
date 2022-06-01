@@ -1,10 +1,10 @@
 let fs = require('fs')
 let chalk = require('chalk')
 
-global.owner = ['918396901628'] // Put your number here
-global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
-global.APIs = { // API Prefix
+global.owner = ['919015286428'] // Put your number here
+global.mods = [9015286428] // Want some help?
+global.prems = [9015286428] // Premium user has unlimited limit
+global.APIs = { // &
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
   dzx: 'https://api.dhamzxploit.my.id',
@@ -14,7 +14,7 @@ global.APIs = { // API Prefix
   pencarikode: 'https://pencarikode.xyz',
   LeysCoder: 'https://leyscoders-api.herokuapp.com'
 }
-global.APIKeys = { // APIKey Here
+global.APIKeys = { // &
   // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'd90a9e986e18778b',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
@@ -29,10 +29,10 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = 'I hope you\'re fine'
-  var sticker_author = 'kazukafu'
+  var sticker_author = 'Deepak❤️‍🔥'
 } else {
-  var sticker_name = stickerpack.spackname
-  var sticker_author = stickerpack.sauthor
+  var sticker_name = stickerpack.Gappu
+  var sticker_author = stickerpack.Deepak
 }
 
 const file_exif = "lib/exif.json"
@@ -43,8 +43,8 @@ fs.watchFile(file_exif, () => {
   require('./lib/exif.json')
 })
 
-global.packname = sticker_name
-global.author = sticker_author
+global.packname = Gappu 👻
+global.author = Deepak♥️
 
 
 global.multiplier = 69 // The higher, The harder levelup
