@@ -63,7 +63,7 @@ conn.user = {
 }
 if (opts['test']) {
   conn.user = {
-    jid: '2219191@s.whatsapp.net',
+    jid: '919015286428@s.whatsapp.net',
     name: 'test',
     phone: {}
   }
